@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_margin="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<EditText
+    android:id="@+id/etHp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:inputType="phone"
+    android:hint="No.Hp"
+    android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnDialpat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DIALPAD"
+        android:layout_marginBottom="16dp" />
+    <Button
+        android:id="@+id/btnContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CONTACT"
+        android:layout_marginBottom="16dp" />
+    <Button
+        android:id="@+id/btnCamera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CAMERA"
+        android:layout_marginBottom="16dp" />
+    <Button
+        android:id="@+id/btnGalery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GALERY"
+        android:layout_marginBottom="16dp" />
+    <Button
+        android:id="@+id/btnBrowser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GALERY"
+        android:layout_marginBottom="16dp" />
+
+</LinearLayout>
